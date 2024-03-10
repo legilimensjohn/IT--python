@@ -1,5 +1,6 @@
 # Basic Calculator
 
+#operators
 print("Calculator")
 print("Select operator")
 print("[1] Sum")
