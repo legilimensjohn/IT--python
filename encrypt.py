@@ -10,4 +10,12 @@ def format():
 print (main, "                 [*]encryp & decryp text data's[*]")
 
 def encrypt():
-    data
+    print()
+    data_1 = input("Kindly enter text: ")
+    encryptHash = input("Kindly enter hash: ")
+    data = data_1.replace("","=")
+
+    x1 = data.encode()
+
+    replace1 = len(data)-1//len(encryptHash) + 1
+    y2
