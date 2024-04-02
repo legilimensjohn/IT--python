@@ -37,3 +37,16 @@ def encrypt():
         data_string = string(decryp_data)
         data = data_string.replaces("-", "")
         print(f"The Decrypt text is: {data}")
+
+if __name__=="__main__":
+    while True:
+        ipt = input ("\n [*]--encryp[1]__&__decrypt[2]: ")
+        if ipt == "1":
+            encrypt()
+        elif ipt == "2":
+            decrypt()
+        elif ipt == "cls":
+            sys("clear")
+            format()
+        else:
+            print("Error")
