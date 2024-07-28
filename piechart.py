@@ -1,10 +1,10 @@
 import matplotlib.pyplot as pit
 
-Data to plot
+#Data to plot
 
 labels 'Labell', 'Label2', 'Label3', 'Label4"]
 
-sizes [15, 30, 45, 10] These are the sizes or proportions of eachistice
+sizes [15, 30, 45, 10] #These are the sizes or proportions of eachistice
 
 colors['gold", "yellowgreen', 'Lightcoral, Lightskyblue] explode (0.1, 0, 0, 0) Explode the Ist slice (Le. Label
 
